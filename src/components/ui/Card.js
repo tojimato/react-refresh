@@ -1,5 +1,6 @@
+import classes from './Card.module.css'
 function Card(params) {
-  return <div>
+  return <div className={classes.card}>
     {params.children}
   </div>;
 }
